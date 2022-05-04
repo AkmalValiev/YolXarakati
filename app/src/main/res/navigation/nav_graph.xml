@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/firstFragment">
+
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="uz.evkalipt.sixmodullesson512.FirstFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_first" />
+    <fragment
+        android:id="@+id/forPagerFragment"
+        android:name="uz.evkalipt.sixmodullesson512.ForPagerFragment"
+        android:label="fragment_for_pager"
+        tools:layout="@layout/fragment_for_pager" />
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="uz.evkalipt.sixmodullesson512.AddFragment"
+        android:label="fragment_add"
+        tools:layout="@layout/fragment_add" />
+    <fragment
+        android:id="@+id/loveFragment"
+        android:name="uz.evkalipt.sixmodullesson512.LoveFragment"
+        android:label="fragment_love"
+        tools:layout="@layout/fragment_love" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="uz.evkalipt.sixmodullesson512.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/editFragment"
+        android:name="uz.evkalipt.sixmodullesson512.EditFragment"
+        android:label="fragment_edit"
+        tools:layout="@layout/fragment_edit" />
+    <fragment
+        android:id="@+id/getOneFragment"
+        android:name="uz.evkalipt.sixmodullesson512.GetOneFragment"
+        android:label="fragment_get_one"
+        tools:layout="@layout/fragment_get_one" />
+</navigation>
